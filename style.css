@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: white; 
+    font-size: 20px;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    color: #4c5056;
+    background: #ee2d5e;
+    height: 60px;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 40px;
+    color: #4c5056;
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn {
+    background: #0b57d0;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background: #1a73e8e8;
+
+}
+
+.main { 
+    background:#94fcd3;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: #4c5056;
+    background:#ee2d5e;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+    font-size: 16px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-cinza {
+    background: #313034;
+    border: 1px solid  #313034;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 11px;
+}
+
+.btn-cinza:hover {
+    background: #5ab92a;
+    border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
